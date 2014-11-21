@@ -1,0 +1,10 @@
+This is a collection of useful data structures, implemented in C++.
+They were made to mimic the standard template library, except that
+they can be tweaked :). Note though that they have very slightly
+different names (vector is Vector, list is List, queue is Queue) and
+the iterators are different.
+
+Example:
+
+VectorIterator it = v.begin();
+ListConstIterator it = l.crend();
